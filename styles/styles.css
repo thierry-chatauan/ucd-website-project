@@ -57,14 +57,13 @@ li a {
     width: 50%;
 }
 
-.home_text{
+.home_text {
     color: #2a006d;
-    z-index: 100;
     position: absolute;
-    left: 20%;
+    left: 10%;
     top: 20%;
     font-style: italic;
-    font-size: 40px;
+    font-size: 2.5em;
     text-shadow: 2px 2px 2px #ffffff;
 }
 
@@ -75,4 +74,26 @@ table {
 
 table td {
     border: 2px solid black;
+}
+
+.testimonies ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonies li {
+    color: #fff;
+    display: flex;
+    height: 120px;
+    width: 60%;
+    margin: 5px;
+    background-color: blue;
+    padding: 15px;
+}
+.testimonies li img{
+    width: 120px;
+}
+
+.testimonies li .float-left{
+    width: 50%;
 }
