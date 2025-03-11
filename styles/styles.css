@@ -10,6 +10,8 @@ body {
     background-color: black;
 }
 
+/* nav */
+
 nav {
     padding: 15px;
     background-color: #131313;
@@ -46,6 +48,8 @@ li a {
     text-decoration: none;
 }
 
+/* videos */
+
 .videos_container {
     height: calc(100vh - 60px);
     display: flex;
@@ -67,6 +71,7 @@ li a {
     text-shadow: 2px 2px 2px #ffffff;
 }
 
+/* pricing */
 
 table {
     border: 2px solid black;
@@ -76,24 +81,40 @@ table td {
     border: 2px solid black;
 }
 
+/* testimonies */
+
+.testimony-text{
+    color: #fff;
+}
+
+.testimonies {
+    width: 100%;
+}
+
 .testimonies ul {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
 }
 
 .testimonies li {
-    color: #fff;
-    display: flex;
-    height: 120px;
+    color: #000;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 150px;
     width: 60%;
     margin: 5px;
-    background-color: blue;
-    padding: 15px;
-}
-.testimonies li img{
-    width: 120px;
+    background-color: rgb(200, 199, 199);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px blue;
 }
 
-.testimonies li .float-left{
+.testimonies li img {
+    width: 150px;
+}
+
+.testimonies li .float-left {
     width: 50%;
 }
