@@ -1,0 +1,39 @@
+.menu-container {
+    padding: 15px;
+    background-color: #131313;
+    color: #fff;
+    height: 60px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-container .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-container img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.menu-container ul {
+    display: flex;
+    justify-content: end;
+}
+
+.menu-container li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu-container li a {
+    text-decoration: none;
+}
+
+li a:visited,li a:active {
+    color: white;
+}

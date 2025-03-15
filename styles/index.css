@@ -12,7 +12,7 @@ body {
 
 /* nav */
 
-nav {
+.menu-container {
     padding: 15px;
     background-color: #131313;
     color: #fff;
@@ -23,29 +23,34 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo {
+.menu-container .logo {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-img {
+.menu-container img {
     width: 50px;
     margin-right: 20px;
 }
 
-ul {
+.menu-container ul {
     display: flex;
     justify-content: end;
 }
 
-li {
+.menu-container li {
     list-style: none;
     margin-right: 25px;
 }
 
-li a {
+.menu-container li a {
     text-decoration: none;
+    color: #fff;
+}
+
+li a:visited,li a:active {
+    color: white;
 }
 
 /* videos */
@@ -82,39 +87,3 @@ table td {
 }
 
 /* testimonies */
-
-.testimony-text{
-    color: #fff;
-}
-
-.testimonies {
-    width: 100%;
-}
-
-.testimonies ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.testimonies li {
-    color: #000;
-    display: grid;
-    grid-template-columns: auto auto;
-    height: 150px;
-    width: 60%;
-    margin: 5px;
-    background-color: rgb(200, 199, 199);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px blue;
-}
-
-.testimonies li img {
-    width: 150px;
-}
-
-.testimonies li .float-left {
-    width: 50%;
-}

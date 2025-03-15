@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* nav */
+
+.menu-container {
+    padding: 15px;
+    background-color: #131313;
+    color: #fff;
+    height: 60px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-container .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-container img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.menu-container ul {
+    display: flex;
+    justify-content: end;
+}
+
+.menu-container li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu-container li a {
+    text-decoration: none;
+}
+
+ a:visited, a:active {
+    color: white;
+}
+
+
+
+.testimony-text {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+}
+
+.testimonies {
+    width: 100vw;
+    padding: 10px;
+}
+
+.multi-column {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr);  */
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.container-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item {
+    color: #fff;
+    border-radius: 15px;
+    background-color: rgba(200, 199, 199, 0.5);
+    box-shadow: 5px 5px 5px #2a006d;
+    padding: 20px;
+}
+
+.testimonies div img {
+    width: 175px;
+    border-radius: 50%/100%;
+}
