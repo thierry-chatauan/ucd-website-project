@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -54,20 +55,19 @@ body {
 
 .testimony-text {
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
 }
 
 .testimonies {
-    width: 100vw;
-    padding: 10px;
+    width: 90vw;
+    padding: 20px;
+    margin: auto;
 }
 
 .multi-column {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr);  */
     grid-template-columns: auto auto;
     gap: 20px;
 }
@@ -87,7 +87,11 @@ body {
     padding: 20px;
 }
 
+.item-title{
+    margin-bottom: 10px;
+}
+
 .testimonies div img {
-    width: 175px;
+    width: 150px;
     border-radius: 50%/100%;
 }

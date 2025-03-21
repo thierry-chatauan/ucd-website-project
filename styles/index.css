@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -78,12 +79,12 @@ li a:visited,li a:active {
 
 
 .home_text {
-    color: #40f092;
+    color: #4CAF50;
     position: absolute;
     left: 10%;
     top: 20%;
     font-style: italic;
-    font-size: 3em;
+    font-size: 2.5em;
     text-shadow: 2px 2px 2px #ffffff;
     animation: fadeInLeft 2.5s ease-out;
 }
