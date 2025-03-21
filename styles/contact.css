@@ -76,16 +76,15 @@ h2{
     grid-template-columns: repeat(2, 1fr); 
     align-items: center;
     justify-items: center;
-    gap: 25px;
 }
 .media-menu{
-    width: 80%;
+    width: 90%;
 }
 
 .media-item{
-    height: 80px;
-    font-size: 40px;
-    border: 2px solid rgb(48, 1, 79);
+    height: 70px;
+    font-size: 35px;
+    border: 2px solid #40f092;
     margin-bottom: 10px;
     border-radius: 25px;
     display: flex;
@@ -96,7 +95,8 @@ h2{
 }
 
 .media-item:hover{
-    background-color: rgb(48, 1, 79);
+    background-color: #40f092;
+    color: #000;
     cursor: pointer;
 }
 

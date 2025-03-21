@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
 .menu-container {
     padding: 15px;
     background-color: #131313;
@@ -36,4 +47,10 @@
 
 li a:visited,li a:active {
     color: white;
+}
+
+/* table */
+
+table{
+    border: 2px solid #fff;
 }
