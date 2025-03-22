@@ -95,3 +95,15 @@ body {
     width: 150px;
     border-radius: 50%/100%;
 }
+
+/* media queries */
+@media screen and (max-width: 800px){
+    
+ .menu-container .logo{
+    display: none;
+    width: 100vw;
+ }
+ .menu-container ul li{
+font-size: 20px;
+ }
+}
