@@ -61,20 +61,25 @@ li a:visited, li a:active {
 }
 
 .home-text {
-    color: #fff;
-    text-align: center;
-    animation: fadeInLeft 2s ease-out;
+    color: #44c55a;
+    animation: fadeInLeft 7s infinite ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.photo img {
+.photo{
     width: 100%;
+    height: 500px;
+    background-image: url(../assets/icons/gym.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
 
 
 @keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-50px);
+    from {opacity: 0;
+        transform: translateX(-5);
     }
 
     to {
@@ -94,7 +99,7 @@ li a:visited, li a:active {
     .menu-mobile {
         display: flex;
         justify-content: center;
-        margin-top: 5px;
+        margin: 5px;
         font-size:14px ;
     }
 
@@ -108,4 +113,10 @@ li a:visited, li a:active {
         font-size: 20px;
     }
 
+    .photo{
+        background-image: url(../assets/icons/gym.jpg);
+        height: 220px;
+    }
+
 }
+
