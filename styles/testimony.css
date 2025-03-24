@@ -5,11 +5,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
+.container {
+    height: 100vh;
+    width: 100%;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
-/* nav */
 
 .menu-container {
     padding: 15px;
@@ -22,7 +25,7 @@ body {
     justify-content: space-between;
 }
 
-.menu-container .logo {
+.menu-container .logo a{
     height: 100%;
     display: flex;
     align-items: center;
@@ -30,32 +33,43 @@ body {
 
 .menu-container img {
     width: 50px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
-.menu-container ul {
+.menu-items {
     display: flex;
-    justify-content: end;
+    list-style: none;
 }
 
-.menu-container li {
+
+.menu-items li {
     list-style: none;
     margin-right: 25px;
 }
 
-.menu-container li a {
+.menu-items li a, .logo a {
     text-decoration: none;
+    color: #fff;
 }
 
- a:visited, a:active {
+li a:visited, li a:active, .logo a {
     color: white;
 }
 
+.menu-mobile {
+    display: none;
+}
 
+.main {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
 
 .testimony-text {
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin: 25px;
 }
@@ -70,6 +84,10 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
+}
+
+.mobile {
+    display: none;
 }
 
 .container-item {
@@ -87,7 +105,7 @@ body {
     padding: 20px;
 }
 
-.item-title{
+.item-title {
     margin-bottom: 10px;
 }
 
@@ -97,13 +115,61 @@ body {
 }
 
 /* media queries */
-@media screen and (max-width: 800px){
-    
- .menu-container .logo{
-    display: none;
-    width: 100vw;
- }
- .menu-container ul li{
-font-size: 20px;
- }
+@media screen and (max-width: 480px) {
+    .logo {
+        margin: auto;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .menu-items {
+        flex-direction: column;
+    }
+
+    .menu-items li {
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .menu-mobile li a {
+        list-style: none;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .multi-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+
+    .testimony-text {
+        font-size: 30px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .item-profile {
+        display: flex;
+        align-items: center;
+    }
 }
