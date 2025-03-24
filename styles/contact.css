@@ -158,6 +158,10 @@ a {
         flex-direction: column;
     }
 
+    .text{
+        font-size: 30px;
+    }
+
     .table-container {
         display: flex;
         flex-direction: column;
