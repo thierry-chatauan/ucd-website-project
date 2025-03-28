@@ -1,0 +1,11 @@
+Home  
+│   ├── The first page of our website, with a banner and a motivational phrase  
+│
+│   Testimonials  
+│   │   ├── Opinions of current customers  
+│
+│   Pricing  
+│   │   ├── A table with plans for potential new customers, including a variable list of prices and services  
+│
+│   Contact Us  
+│   │   ├── A menu with links to social media (Instagram, Facebook), email, phone number, and a link to our location on Google Maps  
